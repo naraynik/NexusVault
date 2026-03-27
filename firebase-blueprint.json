@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "Expense": {
+      "title": "Expense Record",
+      "description": "A financial transaction record within the vault.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique transaction identifier." },
+        "userId": { "type": "string", "description": "Owner of the record." },
+        "amount": { "type": "number", "description": "Transaction value." },
+        "type": { "type": "string", "enum": ["INCOME", "EXPENSE"], "description": "Flow direction." },
+        "category": { "type": "string", "description": "Sector classification (e.g., SALARY, FOOD, RENT)." },
+        "timestamp": { "type": "string", "format": "date-time", "description": "ISO 8601 timestamp of the record." },
+        "description": { "type": "string", "description": "Detailed log information." },
+        "status": { "type": "string", "enum": ["PAID", "ALERT", "PEND"], "description": "Current state of the transaction." }
+      },
+      "required": ["userId", "amount", "type", "category", "timestamp", "status"]
+    },
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Secure user identity and settings.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "totalBalance": { "type": "number" },
+        "vaultSavings": { "type": "number" },
+        "healthScore": { "type": "number" }
+      },
+      "required": ["uid", "email"]
+    }
+  },
+  "firestore": {
+    "/expenses/{expenseId}": {
+      "schema": "Expense",
+      "description": "Global transaction logs (filtered by userId)."
+    },
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User-specific vault data."
+    }
+  }
+}
