@@ -1,12 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# NexusVault 💰
 
-# Run and deploy your AI Studio app
+NexusVault is a modern *A financial command console** built to help users track, manage, and understand their spending habits in a smart and visually engaging way. Unlike traditional expense trackers, NexusVault focuses on providing an **interactive and visually rich dashboard** that gives users instant insights into their financial activity.
 
-This contains everything you need to run your app locally.
+The project is designed with a **dynamic and modern UI**, using smooth layouts, responsive components, and a clean design structure that makes financial tracking simple and enjoyable. The interface is intentionally crafted to feel like a **financial control center**, where users can easily add, delete, and monitor their transactions while instantly spotting areas of overspending.
 
-View your app in AI Studio: https://ai.studio/apps/c8583395-4946-4504-9c5b-b51d6c045b30
+## Unique Features
+
+### Smart Expense Tracking
+
+Users can quickly add or remove transactions and maintain a clear record of their expenses. The system organizes spending data so users can easily understand where their money is going.
+
+### Overspending Detection
+
+One of the key ideas behind NexusVault is helping users identify **areas of overspending**. By analyzing transaction entries, the dashboard highlights spending patterns that may require attention.
+
+### Modern "Command Console" Dashboard
+
+The UI is designed to feel like a **financial command center**, where users can control and monitor their finances from a single dashboard view.
+
+### Clean and Interactive UI
+
+The project features a visually appealing interface with well-structured components, responsive layouts, and intuitive navigation that makes financial management easy even for first-time users.
+
+## Tech Stack
+
+* React.js
+* JavaScript / TypeScript
+* Vite
+* Firebase
+* HTML & CSS
+
+## Project Goal
+
+The goal of NexusVault is to provide a **simple yet powerful financial dashboard** that helps users gain awareness of their spending behavior while delivering a modern and engaging user interface experience.
+
+## Future Improvements
+
+* Data visualization charts for spending analysis
+* Budget planning and savings goals
+* Category-based expense tracking
+* Advanced analytics for financial insights
+
+## Author
+
+Developed by **Narayani Khaparde**
 
 ## Run Locally
 
