@@ -1,6 +1,6 @@
 # NexusVault 💰
 
-NexusVault is a modern *A financial command console** built to help users track, manage, and understand their spending habits in a smart and visually engaging way. Unlike traditional expense trackers, NexusVault focuses on providing an **interactive and visually rich dashboard** that gives users instant insights into their financial activity.
+NexusVault is a modern financial command console  built to help users track, manage, and understand their spending habits in a smart and visually engaging way. Unlike traditional expense trackers, NexusVault focuses on providing an **interactive and visually rich dashboard** that gives users instant insights into their financial activity.
 
 The project is designed with a **dynamic and modern UI**, using smooth layouts, responsive components, and a clean design structure that makes financial tracking simple and enjoyable. The interface is intentionally crafted to feel like a **financial control center**, where users can easily add, delete, and monitor their transactions while instantly spotting areas of overspending.
 
